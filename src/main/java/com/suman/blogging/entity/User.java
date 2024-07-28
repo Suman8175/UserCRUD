@@ -42,6 +42,7 @@ public class User implements UserDetails {
     @JsonIgnore
     private boolean accountBlocked;
     private Long phoneNumber;
+    private Long addressId;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
